@@ -15,7 +15,7 @@ function pokeinfo(name) {
         data['stats'][0]['base_stat'], // speed
         data['stats'][2]['base_stat'], // spattack
         data['stats'][1]['base_stat'], // spdefense
-        ditto
+        ditto // lines  5-9 to reference all abilities in api
       )
       }
     }
