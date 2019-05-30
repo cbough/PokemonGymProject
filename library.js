@@ -22,3 +22,7 @@ function pokeinfo(name) {
   xhttp.open("GET", `http://fizal.me/pokeapi/api/v2/name/${name.toLowerCase()}.json`, true);
   xhttp.send();
 }
+
+cloud = new cloud
+elsa = new Elsa
+chris = new chris
