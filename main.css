@@ -8,6 +8,11 @@ body {
   index-z: -1;
 }
 
+#Gym, #Elsa, #Cloud, #LoadedLux {
+  color: white;
+  font-family: sans-serif;
+}
+
 ul {
   text-transform: capitalize;
 }
