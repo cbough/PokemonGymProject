@@ -1,3 +1,27 @@
+body {
+  margin: 0;
+  background: url('images/gym3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  index-z: -1;
+}
+
+#Gym, #Elsa, #Cloud, #LoadedLux {
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.tablist button:hover {
+  background-color: rgba(227, 18, 18, 0.71);
+}
+
+.tablist button.active {
+  background-color: rgb(115, 0, 0);
+}
+
 ul {
   text-transform: capitalize;
 }
