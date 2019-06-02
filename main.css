@@ -1,0 +1,37 @@
+ul {
+  text-transform: capitalize;
+}
+
+.tablist {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tablist button {
+  border: none;
+  margin: 0 auto;
+  width: 144px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablist button:hover {
+  background-color: #ddd;
+}
+
+.tablist button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
