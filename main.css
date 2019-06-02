@@ -7,3 +7,44 @@ body {
   background-size: cover;
   index-z: -1;
 }
+
+ul {
+  text-transform: capitalize;
+}
+.card-body {
+  background-color: red;
+}
+
+.tablist {
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: red;
+}
+
+.tablist button {
+  border: none;
+  margin: 0 auto;
+  width: 144px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablist button:hover {
+  background-color: rgba(227, 18, 18, 0.71);
+}
+
+.tablist button.active {
+  background-color: rgb(115, 0, 0);
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
