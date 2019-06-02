@@ -1,23 +1,37 @@
-body {
-  margin: 0;
-  background: url('images/gym3.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  index-z: -1;
+ul {
+  text-transform: capitalize;
 }
 
-#Gym, #Elsa, #Cloud, #LoadedLux {
-  color: white;
-  font-family: sans-serif;
+.tablist {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
+.tablist button {
+  border: none;
+  margin: 0 auto;
+  width: 144px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
 
 .tablist button:hover {
-  background-color: rgba(227, 18, 18, 0.71);
+  background-color: #ddd;
 }
 
 .tablist button.active {
-  background-color: rgb(115, 0, 0);
+  background-color: #ccc;
 }
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
