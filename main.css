@@ -13,14 +13,10 @@ body {
   font-family: sans-serif;
 }
 
-
-.tablist button:hover {
-  background-color: rgba(227, 18, 18, 0.71);
+.card-body {
+  background-color: red;
 }
 
-.tablist button.active {
-  background-color: rgb(115, 0, 0);
-}
 
 ul {
   text-transform: capitalize;
@@ -28,7 +24,7 @@ ul {
 
 .tablist {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   background-color: #f1f1f1;
 }
 
@@ -43,11 +39,11 @@ ul {
 }
 
 .tablist button:hover {
-  background-color: #ddd;
+  background-color: rgb(244, 0, 0);
 }
 
 .tablist button.active {
-  background-color: #ccc;
+  background-color: rgb(136, 18, 18);
 }
 
 .tabcontent {
