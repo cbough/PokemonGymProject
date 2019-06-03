@@ -14,57 +14,38 @@ body {
   font-family: sans-serif;
 }
 
+.words {
+  background-color: black;
+  opacity: 0.7;
+  width: 60%;
+  margin-left: 20%;
+}
 
-#Gym p {
+p {
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
-  color: yellow;
+  color: white;
+  font-size: 20px;
 }
 
-#Gym h1{
+h1{
   font-style: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
-  color: yellow;
+  color: white;
+  text-decoration: underline;
 }
 
-#LoadedLux p {
-  font-style: "Comic Sans MS", cursive, sans-serif;
+h4 {
   text-align: center;
-  color: yellow;
 }
 
-#LoadedLux h1{
-  font-style: "Comic Sans MS", cursive, sans-serif;
-  text-align: center;
-  color: yellow;
-}
-
-#Elsa p {
-  font-style: "Comic Sans MS", cursive, sans-serif;
-  text-align: center;
-  color: yellow;
-}
-
-#Elsa h1{
-  font-style: "Comic Sans MS", cursive, sans-serif;
-  text-align: center;
-  color: yellow;
-}
-
-#Cloud p {
-  font-style: "Comic Sans MS", cursive, sans-serif;
-  text-align: center;
-  color: yellow;
-}
-
-#Cloud h1{
-  font-style: "Comic Sans MS", cursive, sans-serif;
-  text-align: center;
-  color: yellow;
+.card-img-top {
+  height: 328px;
+  width: 350px;
 }
 
 .card-body {
-  background-color: red;
+  background-color: darkred;
 }
 
 
@@ -105,3 +86,4 @@ ul {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
+}
