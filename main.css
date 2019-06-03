@@ -8,10 +8,12 @@ body {
   index-z: -1;
 }
 
-#Gym, #Elsa, #Cloud, #LoadedLux {
+
+#Gym, #Elsa, #Cloud, #Larry, #LoadedLux {
   color: white;
   font-family: sans-serif;
 }
+
 
 #Gym p {
   font-family: "Comic Sans MS", cursive, sans-serif;
