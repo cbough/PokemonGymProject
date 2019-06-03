@@ -546,7 +546,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/68/")
     )
     console.log(machamp)
 
-    Loaded.add(machamp)
+    Larrys.add(machamp)
 
     pokeData.innerHTML = machamp.data
 
