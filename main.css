@@ -48,6 +48,9 @@ h4 {
 .card-img-top {
   height: 328px;
   width: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-body {
@@ -120,6 +123,44 @@ ul {
 
 .item-4 {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/31787/stars.jpg");
+}
+
+.geng {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=fb14a54b019e3032&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F1%2F1a%2FAmie_Poison_Wallpaper.png");
+}
+
+.meta {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=9966a29c2e0701ca&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F3%2F35%2FAmie_Rock_Wallpaper.png");
+}
+.stee {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=a36daf060a484b9d&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F3%2F36%2FAmie_Steel_Wallpaper.png");
+}
+.sui {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=060e436756d86a8a&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F9%2F98%2FAmie_Water_Wallpaper.png");
+}
+.meh {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=37eeb8e891a3d1d6&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F2%2F23%2FAmie_Fairy_Wallpaper.png");
+}
+.arc {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=f1f500120f18d50c&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F9%2F93%2FAmie_Dark_Wallpaper.png");
+}
+.dra {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=4dc98cbc5f5ea34a&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2Fe%2Fed%2FAmie_Dragon_Wallpaper.png");
+}
+.hyd {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=310cf79635421071&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F6%2F61%2FAmie_Ghost_Wallpaper.png");
+}
+.hax {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=cb7257fb158ef2e9&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F9%2F95%2FAmie_Bug_Wallpaper.png");
+}
+.snor {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=7b53dd19981e9dba&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2F4%2F48%2FAmie_Normal_Wallpaper.png");
+}
+.lapr {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=25cc3c52904c3a24&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2Fb%2Fb5%2FAmie_Ice_Wallpaper.png");
+}
+.mach {
+  background-image: url("https://pokemondb.net/pokebase/qa-plugin/https-img-proxy/image.php?key=b96f68aa540c8a67&url=http%3A%2F%2Fcdn.bulbagarden.net%2Fupload%2Fa%2Fa4%2FAmie_Fighting_Wallpaper.png");
 }
 
 @keyframes fadeIn {
