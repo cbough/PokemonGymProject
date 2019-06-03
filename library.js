@@ -427,3 +427,139 @@ axios.get("https://pokeapi.co/api/v2/pokemon/635/")
     ul.appendChild(abilities)
 
 })
+
+class Larry {
+    constructor(){
+        this.all = []
+    }
+
+    add(pokemon) {
+        this.all.push(pokemon)
+    }
+    get(name){
+        for (let i = 0; i < this.all.length; i++){
+            if (name === this.all[i].name) {
+                return this.all[i]
+            }
+        }
+    }
+}
+
+let Larry = new Larry()
+
+axios.get("https://pokeapi.co/api/v2/pokemon/143/")
+.then((response) => {
+
+    let ul = document.querySelector("#Snorlax")
+
+    let pokeData = response.data
+    let name = document.createElement("li")
+    let hp = document.createElement("li")
+    let attack = document.createElement("li")
+    let defence = document.createElement("li")
+    let abilities = document.createElement("li")
+
+    let snorlax = new Pokemon(
+        pokeData.name,
+        pokeData.stats[5].base_stat,
+        pokeData.stats[4].base_stat,
+        pokeData.stats[3].base_stat,
+        pokeData.abilities[0].ability.name
+    )
+    console.log(mew)
+
+    Clouds.add(mew)
+
+    pokeData.innerHTML = mew.data
+
+    name.innerHTML = "Name: " + mew.name
+    hp.innerHTML = "Hp: " + mew.hp
+    attack.innerHTML = "Attack: " + mew.attack
+    defence.innerHTML = "Defence: " + mew.defence
+    abilities.innerHTML = "Abilities: " + mew.abilities
+
+    ul.appendChild(name)
+    ul.appendChild(hp)
+    ul.appendChild(attack)
+    ul.appendChild(defence)
+    ul.appendChild(abilities)
+
+})
+
+axios.get("https://pokeapi.co/api/v2/pokemon/131/")
+.then((response) => {
+
+    let ul = document.querySelector("#Lapras")
+
+    let pokeData = response.data
+    let name = document.createElement("li")
+    let hp = document.createElement("li")
+    let attack = document.createElement("li")
+    let defence = document.createElement("li")
+    let abilities = document.createElement("li")
+
+    let lapras = new Pokemon(
+        pokeData.name,
+        pokeData.stats[5].base_stat,
+        pokeData.stats[4].base_stat,
+        pokeData.stats[3].base_stat,
+        pokeData.abilities[0].ability.name
+    )
+    console.log(mew)
+
+    Clouds.add(mew)
+
+    pokeData.innerHTML = mew.data
+
+    name.innerHTML = "Name: " + mew.name
+    hp.innerHTML = "Hp: " + mew.hp
+    attack.innerHTML = "Attack: " + mew.attack
+    defence.innerHTML = "Defence: " + mew.defence
+    abilities.innerHTML = "Abilities: " + mew.abilities
+
+    ul.appendChild(name)
+    ul.appendChild(hp)
+    ul.appendChild(attack)
+    ul.appendChild(defence)
+    ul.appendChild(abilities)
+
+})
+
+axios.get("https://pokeapi.co/api/v2/pokemon/68/")
+.then((response) => {
+
+    let ul = document.querySelector("#Machamp")
+
+    let pokeData = response.data
+    let name = document.createElement("li")
+    let hp = document.createElement("li")
+    let attack = document.createElement("li")
+    let defence = document.createElement("li")
+    let abilities = document.createElement("li")
+
+    let machamp = new Pokemon(
+        pokeData.name,
+        pokeData.stats[5].base_stat,
+        pokeData.stats[4].base_stat,
+        pokeData.stats[3].base_stat,
+        pokeData.abilities[0].ability.name
+    )
+    console.log(mew)
+
+    Clouds.add(mew)
+
+    pokeData.innerHTML = mew.data
+
+    name.innerHTML = "Name: " + mew.name
+    hp.innerHTML = "Hp: " + mew.hp
+    attack.innerHTML = "Attack: " + mew.attack
+    defence.innerHTML = "Defence: " + mew.defence
+    abilities.innerHTML = "Abilities: " + mew.abilities
+
+    ul.appendChild(name)
+    ul.appendChild(hp)
+    ul.appendChild(attack)
+    ul.appendChild(defence)
+    ul.appendChild(abilities)
+
+})
