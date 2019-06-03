@@ -445,7 +445,7 @@ class Larry {
     }
 }
 
-let Larry = new Larry()
+let Larrys = new Larry()
 
 axios.get("https://pokeapi.co/api/v2/pokemon/143/")
 .then((response) => {
@@ -468,7 +468,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/143/")
     )
     console.log(snorlax)
 
-    Larry.add(snorlax)
+    Larrys.add(snorlax)
 
     pokeData.innerHTML = snorlax.data
 
@@ -507,7 +507,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/131/")
     )
     console.log(lapras)
 
-    Larry.add(lapras)
+    Larrys.add(lapras)
 
     pokeData.innerHTML = lapras.data
 
@@ -546,7 +546,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/68/")
     )
     console.log(machamp)
 
-    Clouds.add(machamp)
+    Larrys.add(machamp)
 
     pokeData.innerHTML = machamp.data
 
