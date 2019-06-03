@@ -466,17 +466,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/143/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name
     )
-    console.log(mew)
+    console.log(snorlax)
 
-    Clouds.add(mew)
+    Larry.add(snorlax)
 
-    pokeData.innerHTML = mew.data
+    pokeData.innerHTML = snorlax.data
 
-    name.innerHTML = "Name: " + mew.name
-    hp.innerHTML = "Hp: " + mew.hp
-    attack.innerHTML = "Attack: " + mew.attack
-    defence.innerHTML = "Defence: " + mew.defence
-    abilities.innerHTML = "Abilities: " + mew.abilities
+    name.innerHTML = "Name: " + snorlax.name
+    hp.innerHTML = "Hp: " + snorlax.hp
+    attack.innerHTML = "Attack: " + snorlax.attack
+    defence.innerHTML = "Defence: " + snorlax.defence
+    abilities.innerHTML = "Abilities: " + snorlax.abilities
 
     ul.appendChild(name)
     ul.appendChild(hp)
@@ -505,17 +505,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/131/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name
     )
-    console.log(mew)
+    console.log(lapras)
 
-    Clouds.add(mew)
+    Larry.add(lapras)
 
-    pokeData.innerHTML = mew.data
+    pokeData.innerHTML = lapras.data
 
-    name.innerHTML = "Name: " + mew.name
-    hp.innerHTML = "Hp: " + mew.hp
-    attack.innerHTML = "Attack: " + mew.attack
-    defence.innerHTML = "Defence: " + mew.defence
-    abilities.innerHTML = "Abilities: " + mew.abilities
+    name.innerHTML = "Name: " + lapras.name
+    hp.innerHTML = "Hp: " + lapras.hp
+    attack.innerHTML = "Attack: " + lapras.attack
+    defence.innerHTML = "Defence: " + lapras.defence
+    abilities.innerHTML = "Abilities: " + lapras.abilities
 
     ul.appendChild(name)
     ul.appendChild(hp)
@@ -544,17 +544,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/68/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name
     )
-    console.log(mew)
+    console.log(machamp)
 
-    Clouds.add(mew)
+    Clouds.add(machamp)
 
-    pokeData.innerHTML = mew.data
+    pokeData.innerHTML = machamp.data
 
-    name.innerHTML = "Name: " + mew.name
-    hp.innerHTML = "Hp: " + mew.hp
-    attack.innerHTML = "Attack: " + mew.attack
-    defence.innerHTML = "Defence: " + mew.defence
-    abilities.innerHTML = "Abilities: " + mew.abilities
+    name.innerHTML = "Name: " + machamp.name
+    hp.innerHTML = "Hp: " + machamp.hp
+    attack.innerHTML = "Attack: " + machamp.attack
+    defence.innerHTML = "Defence: " + machamp.defence
+    abilities.innerHTML = "Abilities: " + machamp.abilities
 
     ul.appendChild(name)
     ul.appendChild(hp)
