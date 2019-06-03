@@ -99,10 +99,27 @@ ul {
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   height: 270px;
   width: 270px;
+  background-size: cover;
+}
+
+.item-1 {
+  background-image: url("https://i.ytimg.com/vi/5vGEz7RMfEU/maxresdefault.jpg");
+  background-position: center;
+}
+
+.item-2 {
+  background-image: url("https://archive-media-1.nyafuu.org/vp/image/1407/64/1407642465792.png");
+}
+
+.item-3 {
+  background-image: url("https://vignette.wikia.nocookie.net/spongebob/images/9/9c/Goo_Lagoon_in_Hocus_Pocus.png/revision/latest?cb=20150613221129");
+}
+
+.item-4 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/31787/stars.jpg");
 }
 
 @keyframes fadeIn {
